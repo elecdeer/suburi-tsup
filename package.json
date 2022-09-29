@@ -1,0 +1,25 @@
+{
+  "name": "suburi-tsup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup",
+    "start": "node --enable-source-maps ./dist/index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elecdeer/suburi-tsup.git"
+  },
+  "author": "elecdeer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elecdeer/suburi-tsup/issues"
+  },
+  "homepage": "https://github.com/elecdeer/suburi-tsup#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.23",
+    "tsup": "^6.2.3",
+    "typescript": "^4.8.4"
+  }
+}
