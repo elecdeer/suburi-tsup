@@ -1,3 +1,3 @@
-declare const pkg: any;
+declare const sumResult: number;
 
-export { pkg };
+export { sumResult };
